@@ -1,0 +1,17 @@
+{
+  "name": "androidify",
+  "description": "convert html/javascript files into an android app",
+  "version": "1.0.0",
+  "homepage": "https://github.com/dominictarr/androidify",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dominictarr/androidify.git"
+  },
+  "bin": "./index.sh",
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done"
+  },
+  "author": "'Dominic Tarr' <dominic.tarr@gmail.com> (http://dominictarr.com)",
+  "license": "MIT"  
+}
+
